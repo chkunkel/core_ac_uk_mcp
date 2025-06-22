@@ -35,5 +35,4 @@ async def download_single_work_by_identifier(identifier: str) -> dict:
     return str(resp.json())
 
 if __name__ == "__main__":
-    # Exposes an HTTP‑streamable server on http://127.0.0.1:8000/mcp/
-    mcp.run(transport="streamable-http") #
+    mcp.run(transport="stdio")
