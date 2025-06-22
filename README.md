@@ -63,6 +63,8 @@ Add the following config to the program of your choice:
   }
 }
 ```
+Replace `<SCRIPT_PATH>` by the respective path to the script
+
 
 ## Available Functions (so far)
 - `search_works_by_keywords`
