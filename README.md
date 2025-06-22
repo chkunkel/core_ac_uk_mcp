@@ -50,14 +50,21 @@ Add the following config to the program of your choice:
 ```
 {
   "mcpServers": {
-    "CORE API Server": {
-        "type": "streamable-http",
-        "url": "http://127.0.0.1:8000/mcp",
-        "note": "For Streamable HTTP connections, add this URL directly in your MCP Client"
+    "core_ac_uk_server": {
+      "command": "uv",
+      "args": [
+        "run",
+        "<SCRIPT_PATH>/core_mcp_server_local.py"
+      ],
+      "env": {},
+      "working_directory": null,
+      "start_on_launch": true
     }
-    }
+  }
 }
 ```
 
-## Available Functions
+## Available Functions (so far)
+- `search_works_by_keywords`
+- `download_single_work_by_identifier`
 
