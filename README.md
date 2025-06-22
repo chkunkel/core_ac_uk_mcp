@@ -20,15 +20,15 @@ API documentation: https://api.core.ac.uk/docs/v3
    When installed, run:
 
     ```bash
-    uv run core_mcp_server_local.py
+    uv run <path_to_directory>/core_mcp_server_local.py
     ```
+    Please add the path to the file, you don't need quotes or the < > brackets around your key.
     
    Output (if successful):
 
     ```bash
     INFO     Starting MCP server 'CORE\xa0API\xa0Server' with transport 'stdio'
     ```
-    
     With an API key installed in the environment, the MCP server is ready.
 
     
