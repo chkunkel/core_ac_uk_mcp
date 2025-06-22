@@ -1,4 +1,8 @@
-A simple MCP server wrapping parts of the CORE.ac.uk API:
+# Minimal MCP Server for Accessing CORE.ac.uk API
+
+This project provides a lightweight Machine Communication Protocol (MCP) server that wraps key functionalities of the CORE.ac.uk API. It enables local programmatic access to academic content, allowing you to search works by keyword or download full metadata for individual research papers using a simple interface.
+
+Ideal for integrating into applications or development environments that support MCP-based extensions.
 
 API documentation: https://api.core.ac.uk/docs/v3
 
