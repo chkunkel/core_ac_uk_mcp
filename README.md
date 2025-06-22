@@ -4,6 +4,34 @@ API documentation: https://api.core.ac.uk/docs/v3
 
 ## Installation
 
+1. Clone repository:
+
+   ```
+   git clone https://github.com/chkunkel/core_ac_uk_mcp
+   cd core_ac_uk_mcp
+   ```
+
+2. Install dependencies with uv:
+
+   ```bash
+   uv sync
+   ```
+   
+   When installed, run:
+
+    ```bash
+    uv run core_mcp_server_local.py
+    ```
+    
+   Output (if successful):
+
+    ```bash
+    INFO     Starting MCP server 'CORE\xa0API\xa0Server' with transport 'stdio'
+    ```
+    
+    With an API key installed in the environment, the MCP server is ready.
+
+    
 ## API Key Setup
 
 You need to obtain an API Key on the website first.
