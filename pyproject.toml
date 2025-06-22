@@ -1,0 +1,15 @@
+# pyproject.toml
+
+[project]
+name = "core.ac.uk MCP wrapper" 
+version = "0.1.0"
+description = "A project leveraging mcp for Agent integration of academic articles from CORE.ac.uk API."
+requires-python = ">=3.8"
+
+dependencies = [
+  "fastmcp",
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
